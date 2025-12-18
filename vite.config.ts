@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // MUITO IMPORTANTE para deploy no Render
+  base: './', // ESSENCIAL para deploy no Render
 });
