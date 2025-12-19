@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [react()],
-  base: './', // ESSENCIAL para deploy no Render
+  base: "/Omega-Impressoras-Dev-1.0/",
+  plugins: [react()]
 });
